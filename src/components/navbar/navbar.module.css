@@ -1,0 +1,28 @@
+.container {
+  color: white;
+
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* Adjust the padding for better mobile display */
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px; /* Decrease font size for mobile devices */
+}
+
+.links {
+  display: none; /* Hide the links by default for small screens */
+}
+
+.logout {
+  padding: 5px 10px; /* Increase padding for better touch interactions */
+  border: none;
+  background-color: #5396c2;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
